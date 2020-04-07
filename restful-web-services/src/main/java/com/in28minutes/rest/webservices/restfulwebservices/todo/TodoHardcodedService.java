@@ -19,8 +19,7 @@ public class TodoHardcodedService {
 		todos.add(new Todo(++idCounter, "in28Minutes", "Learn about React", new Date(), false));
 		todos.add(new Todo(++idCounter, "in28Minutes", "Learn about Miscroservice", new Date(), false));
 		todos.add(new Todo(++idCounter, "in28Minutes", "Learn about SpringBoot", new Date(), false));
-		todos.add(new Todo(++idCounter, "in28Minutes", "Learn about Angular", new Date(), false));
-		todos.add(new Todo(++idCounter, "in28Minutes", "Learn about Corona", new Date(), false));
+		
 	}
 
 	// Need to return the Todos
