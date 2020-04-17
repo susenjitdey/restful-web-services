@@ -15,12 +15,13 @@ public class JwtInMemoryUserDetailsService implements UserDetailsService {
 
   static {
     inMemoryUserList.add(new JwtUserDetails(1L, "in28minutes",
-        "$2a$10$3zHzb.Npv1hfZbLEU5qsdOju/tk2je6W6PnNnY.c1ujWPcZh4PL6e", "ROLE_USER_2"));
+        "$2a$10$hDNUpVjsj6qT6.WT1tW6u.SeWErSBtwKfVvI05Di7Ph7wDLrrUGCW", "ROLE_USER_2"));
     inMemoryUserList.add(new JwtUserDetails(2L, "susenjit",
             "$2a$10$hDNUpVjsj6qT6.WT1tW6u.SeWErSBtwKfVvI05Di7Ph7wDLrrUGCW", "ROLE_USER_2"));
     
     //$2a$10$OsOjPK4UCyeBiMkcIEhbdOuYVZTBfY.pLukvI5HyGYIxgcNXINdRm
     //$2a$10$hDNUpVjsj6qT6.WT1tW6u.SeWErSBtwKfVvI05Di7Ph7wDLrrUGCW -- Susenjit
+    //$2a$10$I.XUZar1ntCxZWqMfFKSjuHLF7RVNMkZFuMiG6bjmhcTcooO0k1qu--susenjit lates
   }
 
   @Override
