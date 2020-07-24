@@ -11,7 +11,7 @@ public class BcryptEncoderTest {
 		
 		for(int i=0; i<=10; i++) {
 			
-			String encodedString = bCryptPasswordEncoder.encode("password@123");
+			String encodedString = bCryptPasswordEncoder.encode("newdummy");
 			System.out.println(encodedString);
 		}
 		
